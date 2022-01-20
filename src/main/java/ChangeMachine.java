@@ -6,10 +6,14 @@ public class ChangeMachine {
         this.money = money ;
     }
 
+    public ChangeMachine(){
+    }
+
     public int getMoney() {
         return money;
     }
 
-
-
+    public int sumMoney(int i) {
+        return money += i;
+    }
 }
